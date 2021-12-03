@@ -2,7 +2,6 @@ var time = 10;
 var timer = setInterval(()=>{
   if(time <= 0){
     clearInterval(timer);
-    var text = new Text(); 
     var div = document.getElementById('countdown'); 
     div.innerHTML="HAPPY INDEPENDENCE DAY" 
   }else{
